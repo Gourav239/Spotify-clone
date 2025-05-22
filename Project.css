@@ -1,0 +1,230 @@
+*{
+    color: white;
+}
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    /* overflow: hidden; */
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    margin: .5rem;
+
+}
+
+.sidebar{
+   
+    width: 21rem;
+    border-radius: 1rem; /*16px*/
+ 
+}
+
+.main_content{
+    /* background: url(./assets/Background-img.jpg); */
+    background: url(./assets/bg2.jpg);
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem; 
+    margin-left: .5rem;
+}
+
+.music_player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%; 
+    border-radius: 1rem; 
+}
+
+a{
+    text-decoration: none;   
+}
+
+.nav{
+    background-color: #121212;   
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    opacity: 0.7;
+    line-height: 2.5rem;
+
+}
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+}
+.library{
+    margin-top: .5rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 1rem 0rem; 
+    height: 100%;
+}
+.options{ 
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-opt img{
+   height: 1.25rem;
+   width: 1.25rem;
+   margin-right: 1rem; 
+}
+.icons i{
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+.card-one{
+    background-color: #232323;
+    border-radius: .9rem;
+    height: 7.25rem;
+    margin: 1rem 0 .5rem 0;
+    padding: 1rem 1rem .65rem 1rem ;
+    
+    line-height: 2rem;
+}
+
+.button{
+    background: #fff;
+    border-radius: 1rem;
+    color: #000;
+    padding: .35rem;
+    font-weight: 600;
+}
+
+.card-two{
+    background-color: #232323;
+    border-radius: .9rem;
+    height: 7.25rem;
+    margin: 0 0 .5rem 0;
+    padding: 1rem 1rem .65rem 1rem;
+    
+    line-height: 2rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+}
+.box-p2{
+    font-size: .8rem;
+}
+.upper-layer{
+    margin:1rem 42% 0rem 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-layer img{
+    height: 1rem;
+    width: 1rem;    
+}
+
+.lower-layer{
+    margin: .5rem 30% .5rem 30%;
+    padding-bottom:  1rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.level-bar{
+    width: 70%;
+}
+
+.brackets{
+    padding: 1.25rem;
+}
+
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.25rem;
+}
+
+.Explore{
+   color: #000 ;
+   border-radius: 1rem;
+   height: 1.75rem;
+   font-weight: 600;
+}
+
+.Install{
+    background: #000;
+    border-radius: 1rem;
+    height: 1.75rem;
+    font-weight: 600;
+ }
+
+ .second{
+    margin-left: 1rem;
+ }
+
+ .third{
+    border-radius: .5rem;
+    margin:1.5rem 2.25rem .5rem ;
+    height: 15rem;
+    width: 9.75rem;
+    background: #232323;
+ }
+
+ .img{  
+    margin: .9rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: .6rem;
+ }
+
+ .third-header{
+    margin: .4rem 1rem .75rem ;
+    font-size: .85rem;
+    font-weight: 600;
+ }
+
+ .third-para{
+    margin: .4rem 1rem .75rem ;
+    font-size: .65rem;
+ }
+
+ .fifth{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .third-f{
+    border-radius: .5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    /* margin:1.25rem .75rem .75rem 0rem; */
+    height: 15rem;
+    width: 9.75rem;
+    background: #232323;
+ }
+
+ @media (max-width: 1000px) {
+
+    .Explore, .forward{
+        display: none;
+    }
+ }
